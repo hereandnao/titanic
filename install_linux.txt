@@ -1,0 +1,25 @@
+### Linux installation procedure ###
+
+# Arch Linux #
+##############
+# Get root access
+su
+# Update repository list
+pacman -Sy
+# Update linux
+pacman -Su
+# Install python3
+pacman -S python
+# Install pip
+pacman -S python-pip
+# Install pandas module
+pip install pandas
+# Install matplotlib module
+pip install matplotlib
+# Install scipy module
+pip install scipy
+# Instamm sklearn module
+pip install sklearn
+# Exit root login
+exit
+# Then execute script and enjoy !
